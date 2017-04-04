@@ -1,0 +1,290 @@
+/*
+Theme name: tLCustomLighting
+Author: Marquis Massie
+Author Email: massiemarquis@gmail.com
+Company URL: http://www.tlcustomlighting.com/
+Version: 1.0
+Description: A custom wordpress theme tLCustomLightiing. The theme is specifically intended for the tL*CustomLighting website.
+*/
+
+/******* General ********/
+ul{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+
+/******* Header ********/
+.login{
+    display: inline;
+    font-family: sans-serif;
+    margin: 0;
+    width: 50%;
+    padding: 0;
+    margin: auto;
+}
+.login p{
+    margin: auto;
+    padding: 0;
+    width: 50%;
+}
+.login .col-sm-2{
+    padding: 0;
+}
+.login a{
+    text-decoration: none;
+}
+.login ul{
+    position: inherit;
+    overflow: auto;
+    width: 50%;
+}
+.login li{
+    list-style: none;
+    display: inline;
+}
+.banner{
+    margin-top: 0;
+    padding-top: 0;
+    text-decoration: none;
+    background-color: lightgray;
+}
+.banner a{
+    color: black;
+}
+.banner a:hover{
+    color: black;
+}
+.banner span a{
+    text-decoration: none;
+}
+.banner .text-nowrap{
+    margin-top, margin-bottom: auto;
+    padding-top, padding-bottom: 0;
+}
+.banner .site-nav, .banner a h1{
+    margin: 0;
+    padding: 0;
+}
+.banner .navbar{
+    border: 0 solid lightgray;
+}
+.banner .site-nav, .banner .navbar{
+    background-color: lightgray;
+}
+.banner .site-nav li{
+    list-style: none;
+}
+.banner .site-nav ul a:hover{
+    text-decoration: none;
+}
+
+.container-fluid.index{
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.header{
+    margin-bottom: 20px;
+}
+
+/******* Side bar blog posts *********/
+.parent-div{
+    clear: both;
+    display: block;
+    height: 0;
+}
+.content-col{
+    width: 55%;
+    float: left;
+}
+.content-col, .content-col .col-md-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+.fixture-table td{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+/****** Homepage ******/
+#myCarousel{
+    float: left;
+}
+#myCarousel .item img{
+    min-width: 75%;
+}
+.carousel-title{
+    position: relative;
+    right: 3%;
+    bottom:500px;
+    color: white;
+    font-family: "Brush Script M7"; 
+}
+.item a{
+    text-decoration: none;
+}
+/***** Footer *****/
+footer{
+    border:1px solid black;
+    background-color:black;
+    color:white;
+    padding: 20px;
+    width: 100vw;
+}
+footer table td{
+    padding: 10px 50px 10px 50px;
+}
+footer table td:nth-child(2){
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+/***** Page.php *****/
+.hd-search{
+    float: right;
+    clear: left;
+    margin-right: 20px;
+}
+.hd-search #searchsubmit{
+    vertical-align: top;
+}
+.hd-search #s{
+    vertical-align: top;
+    padding: 5px 0;
+}
+.gallery-grid{
+    padding-left: 0;
+}
+.gallery-grid li{
+    display: block;
+    float: left;
+    width: 33.3%;
+    padding: 0;
+    margin-right:;
+    margin-left:;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 786px){
+    /*Desktop*/
+    .col-sm-1 a:after{
+        content: "Login";
+    }
+    .col-sm-3.text-right:after{
+        content: "Are you a tL*Custom Lighting Customer?";
+    }
+    .login .col-sm-6, .login .col-sm-3, .login .col-sm-1, .login .col-sm-2{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    /*Desktop style for main navigation*/
+    .banner .site-nav ul{
+        margin: 0;
+        padding: 0;
+    }
+    .banner .main-nav{
+        padding-top: 20px;
+    }
+    .banner .nav.navbar-nav a{
+        margin: 0;
+        padding: 0;
+    }
+    .banner .site-nav ul:before, .banner .site-nav ul:after{
+        content: "";
+        display: table;
+    }
+    .banner .site-nav:after{
+        clear: both;
+    }
+    .banner .site-nav ul li{
+        list-style: none;
+        float: left;
+    }
+    .banner .site-nav ul li a:link, .banner .site-nav ul li a:visited{
+        display: block;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .banner .col-md-4 h2 span{
+        display: none;
+    }
+    .banner .col-md-4 h2:after{
+        content: "Phone: +1.310.622.7313 Email: info@tlcustomlighting.com";
+    }
+    .banner .col-md-4 h2{
+        font-size: 1.5rem;
+    }
+    #customBar ul{
+        background-color: lightgray;
+    }
+    
+    /* Desktop for homepage */
+    .container-fluid.index{
+        height: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .content-col{
+        overflow: auto;
+        vertical-align: top;
+    }
+    #myCarousel img{
+        height: 490px;   
+    }
+    .blog-col{
+        width: 20%;
+        float: right;
+        padding-top: 0;
+        clear: right;
+        margin-right: 25px;
+    }
+    .filter{
+        vertical-align: top;
+    }
+    .filter-button{
+        margin-left: 15px;
+    }
+    
+}
+@media only screen and (max-width: 700px){
+    .col-sm-6.title{
+        display: none;
+    }
+    .content-col{
+        width: 99%;
+        overflow: auto;
+    }
+    .blog-col{
+        display: none;
+        width:1%;
+    }
+    .container-fluid.index{
+        height: 100vh;
+    }
+    footer{
+        padding: 0;
+        height: 20vh;
+        margin-top: 47%;
+    }
+    footer .row{
+        height: 2px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    footer h6{
+        padding: 25px;
+        height: 100px;
+        margin-bottom: 0;
+    }
+    footer table td{
+        display: none;
+        height: 2px;
+    }
+    #myCarousel img{
+        /*Make sure to set the height so that it reaches the footer*/
+        height: 125vh;
+    }
+}
