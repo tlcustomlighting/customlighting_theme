@@ -8,7 +8,7 @@ Author: Marquis Massie
 get_header();
 ?>
 
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="row">
             <h2>USA OFFICE</h2>

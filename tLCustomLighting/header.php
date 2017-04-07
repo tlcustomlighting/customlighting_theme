@@ -11,14 +11,14 @@
     </head>
     <body<?php body_class(); ?>>
         <div class="row login">
-            <div class="col-sm-6 title"><a href="<?php echo home_url();?>"><h2><?php bloginfo('name'); ?></h2></a></div>
+            <div class="col-sm-6 title"><a href="<?php echo home_url();?>"><h2><strong>tL<span style="color:red;">*</span> Custom Lighting</strong></h2></a></div>
             <div class="col-sm-3 text-right"></div>
-            <div class="col-sm-1"><a href="<?php echo get_page_link(); ?>"></a></div>
+            <div class="col-sm-1"><a href="<?php echo get_page_link(97); ?>"></a></div>
             <div class="col-sm-2"></div>
          </div>
          <div class="row banner header">
             <div class="col-md-4 text-center">
-                <h2 class="text-nowrap"><span><a href="<?php echo home_url(); ?>" style="text-decoration:none;"><?php bloginfo('name'); ?></a></span></h2>
+                <h2 class="text-nowrap"><span><a href="<?php echo home_url(); ?>" style="text-decoration:none;">tL<span style="color:red;">*</span> Custom Lighting</a></span></h2>
             </div>
             <div class="col-md-8 text-center">
                 <nav class="navbar navbar-default">

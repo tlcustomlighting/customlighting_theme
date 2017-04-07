@@ -13,13 +13,17 @@
                     <!-- Wrapper for slides. Each item points to a page and each image should be the featured image for that page.-->
                     <div class="carousel-inner" role="listbox">
                         <div class="item">
-                            <a href="<?php echo get_page_link(16); ?>"><img src="http://localhost:8888/wordpress/wp-content/uploads/2017/03/tl-lighitng-home5-1-300x300.jpg" alt="Chania" width="700" height="300"><h2 class="carousel-title text-center">Fixtures &amp; Shades</h2></a>
+                            <a href="<?php echo get_page_link(16); ?>"><img src="http://localhost:8888/wordpress/wp-content/uploads/2017/03/tl-lighitng-home5-1-300x300.jpg" alt="Chania" width="700" height="300"></a>
+                            <h2 class="carousel-title text-center">Fixtures &amp; Shades</h2>
+                            
                         </div>
                         <div class="item active">
-                            <a href="<?php echo get_page_link(12); ?>"><img src="http://localhost:8888/wordpress/wp-content/uploads/2017/03/featherlady-1-300x214.jpg" width="700" height="300"alt="floral"><h2 class="carousel-title text-center">Inspirations</h2></a>
+                            <a href="<?php echo get_page_link(12); ?>"><img src="http://localhost:8888/wordpress/wp-content/uploads/2017/03/featherlady-1-300x214.jpg" width="700" height="300"alt="floral"></a>
+                            <h2 class="carousel-title text-center">Inspirations</h2>
                         </div>
                         <div class="item">
-                            <a href="<?php echo get_page_link(14); ?>"><img src="http://localhost:8888/wordpress/wp-content/uploads/2017/03/btm-right-townsend2-1-300x200.jpg" alt="spiral"width="700" height="300"><h2 class="carousel-title text-center">Materials</h2></a>
+                            <a href="<?php echo get_page_link(14); ?>"><img src="http://localhost:8888/wordpress/wp-content/uploads/2017/03/btm-right-townsend2-1-300x200.jpg" alt="spiral"width="700" height="300"></a>
+                            <h2 class="carousel-title text-center">Materials</h2>
                         </div>
                     </div>
                     <!-- Left and right controls -->

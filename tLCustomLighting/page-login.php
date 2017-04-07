@@ -1,14 +1,11 @@
 <?php
-/*
-File: page-login.php
-Author: Marquis Massie
-Description: Login file for clients
-*/
-
 get_header();
 ?>
 
-<h1 class="text-info">We apologize for the inconvenience, however our client/personal gallery services is undergoing maintanence and will be available in the near future. Please refer to our contact methods below for more information and questions.</h1>
+<div class="login-body">
+    <h2 class="login-info">The login feature of this website is currently under construction. For questions and queries please refer to our contact methods below.</h2>
+</div>
 
-<?php get footer();
+<?php
+get_footer();
 ?>
