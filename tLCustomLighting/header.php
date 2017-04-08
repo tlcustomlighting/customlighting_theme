@@ -14,7 +14,13 @@
             <div class="col-sm-6 title"><a href="<?php echo home_url();?>"><h2><strong>tL<span style="color:red;">*</span> Custom Lighting</strong></h2></a></div>
             <div class="col-sm-3 text-right"></div>
             <div class="col-sm-1"><a href="<?php echo get_page_link(97); ?>"></a></div>
-            <div class="col-sm-2"></div>
+            <div class="col-sm-2">
+                <ul>
+                    <li><i class="fa fa-facebook"></i></li>
+                    <li><i class="fa fa-linkedin"></i></li>
+                    <li><i class="fa fa-pinterest"></i></li>
+                </ul>
+            </div>
          </div>
          <div class="row banner header">
             <div class="col-md-4 text-center">

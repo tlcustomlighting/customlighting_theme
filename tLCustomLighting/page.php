@@ -139,47 +139,47 @@
                     $pageCode = '';
                     
                     switch($pageID){
-                        case 12:
+                        case 14:
                             $images = get_posts(array('post_type' => 'attachment', 'post_mime_type'=>'image', 'numberposts' => -1, 'category_name'=>'inspire', 'tag'=>$results, 'tag_slug__in'=>$results));
                             $pageCode = 'I';
                             break;
-                        case 14:
+                        case 192:
                             $images = get_posts(array('post_type' => 'attachment', 'post_mime_type'=>'image', 'numberposts' => -1, 'category_name'=>'material',
                             'tag'=>$results,
                             'tag_slug__in'=>$results));
                             $pageCode = 'M';
                             break;
-                        case 30:
+                        case 26:
                             $images = get_posts(array('post_type' => 'attachment', 'post_mime_type'=>'image', 'numberposts' => -1, 'category_name'=>'table-lamps',
                             'tag'=>$results,
                             'tag_slug__in'=>$results));
                             $pageCode = 'TL';
                             break;
-                        case 32:
+                        case 438:
                             $images = get_posts(array('post_type' => 'attachment', 'post_mime_type'=>'image', 'numberposts' => -1, 'category_name'=>'floor-lamps',
                             'tag'=>$results,
                             'tag_slug__in'=>$results));
                             $pageCode = 'FL';
                             break;
-                        case 34:
+                        case 21:
                             $images = get_posts(array('post_type' => 'attachment', 'post_mime_type'=>'image', 'numberposts' => -1, 'category_name'=>'pendants',
                             'tag'=>$results,
                             'tag_slug__in'=>$results));
                             $pageCode = 'P';
                             break;
-                        case 36:
+                        case 23:
                             $images = get_posts(array('post_type' => 'attachment', 'post_mime_type'=>'image', 'numberposts' => -1, 'category_name'=>'scones',
                             'tag'=>$results,
                             'tag_slug__in'=>$results));
                             $pageCode = 'S';
                             break;
-                        case 86:
+                        case 19:
                             $images = get_posts(array('post_type' => 'attachment', 'post_mime_type'=>'image', 'numberposts' => -1, 'category_name'=>'chandeliers',
                             'tag'=>$results,
                             'tag_slug__in'=>$results));
                             $pageCode = 'CH';
                             break;
-                        case 88:
+                        case 28:
                             $images = get_posts(array('post_type' => 'attachment', 'post_mime_type'=>'image', 'numberposts' => -1, 'category_name'=>'ceiling-mount',
                             'tag'=>$results,
                             'tag_slug__in'=>$results));
