@@ -7,10 +7,9 @@
         display: block;
         float: left;
         width: 25%;
-        vertical-align: top;
     }
     .news-grid li img{
-        height: 400px;
+        height: 150px;
     }
     .container-fluid.index{
         height: 45%;
@@ -25,6 +24,15 @@
     }
     .col-sm-3.social{
         float: right;
+        padding: 0;
+    }
+    .col-sm-3.social ul{
+        margin: 0;
+        padding: 0;
+    }
+    .col-sm-3.social ul li{
+        padding-left: 10px;
+        padding-right: 10px;
     }
      /* Single-page */
     .row.single-desc p{
@@ -167,13 +175,35 @@
         float: left;
         width: 25%;
     }
-    /* Fixtures and Shades */
-    /* Attachments */
-    /* News Page */
     .news{
        border: 2px solid darkgoldenrod; 
     }
-    /* Overview */
-    /* Client Page */
-    /* Login Page */
+    
+    
+    
+    
+    .col-sm-3.text-right a i{
+        color: black;
+    }
+    .social table{
+        float: right;
+        height: 46px;
+    }
+    /*Desktop style for main navigation*/
+    /* Desktop for homepage */
+    #myCarousel .item img{
+        width: 42%;
+        margin-left: 30%;
+        height: 400px;
+    }
+    /* Page Template */
+    /* Single-page */
+    .row.single-desc p{
+        height: 20px;
+    }
+    .row.error-404{
+        padding-bottom: 28%;
+    }
+    /* News */
+    /* Footer Page */
 }

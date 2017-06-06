@@ -18,6 +18,48 @@ get_header();
         <?php echo wp_get_attachment_image(get_the_ID(), 'large'); ?>
     </div>
 </div>
+<h3 class="text-center">Newest Posts</h3>
+<div id="newsCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators list-unstyled">
+        <li data-target="#newCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#newsCarousel" data-slide-to="1"></li>
+        <li data-target="#newsCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for slides. Each item points to a page and each image should be the featured image for that page.-->
+    <div class="carousel-inner" role="listbox">
+        <?php
+            /* Use the count variable to keep track of how many thumbnails array displayed in the array for the carouel slider. Please DO NOT change the values as it will disrupt the code unless you have contacted the original author.
+            */
+            $wpb = new WP_QUERY(array('post_type'=>'post', 'post_status'=>'publish', 'post_per_page'=>-1)); 
+                const slider_size = 18; ?>
+            <?php if ($wpb->have_posts()) :  $count = 0; ?>
+        <div class="item active">
+            <ul class="news-grid">
+                <?php while($wpb->have_posts() && $count < 4) : $wpb->the_post(); ?>
+                    <li><span><?php the_post_thumbnail(); $count++;?></span></li>
+                <?php endwhile; ?>
+            </ul>
+        </div>
+        <div class="item">
+            <ul class="news-grid">
+                <?php while($wpb->have_posts() && $count < 8) : $wpb->the_post(); ?>
+                    <li><span><?php the_post_thumbnail(); $count++;?></span></li>
+                <?php endwhile; ?>
+            </ul>
+        </div>
+        <div class="item">
+            <ul class="news-grid">
+                <?php while($wpb->have_posts() && $count < 12) : $wpb->the_post(); ?>
+                    <li><span><?php the_post_thumbnail(); $count++; ?></span></li>
+                <?php endwhile; ?>
+            </ul>
+        </div>
+    <?php wp_reset_postdata(); ?>
+    <?php else : ?>
+        <p><?php _e('Sorry, no posts matched this criteria.'); ?></p>
+    <?php endif; ?>
+    </div>
+</div>
 <?php
 get_footer();
 ?>

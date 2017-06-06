@@ -39,7 +39,7 @@ a, a:hover{
 .news-grid li{
     display: block;
     float: left;
-    width: 25%;
+    width: 16.67%;
     padding-top: 0;
 }
 
