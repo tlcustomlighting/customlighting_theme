@@ -15,14 +15,6 @@ Description: A custom wordpress theme tLCustomLightiing. The theme is specifical
 .news_grid li span{
     display: block;
 }
-.news_grid li{
-        display: block;
-        float: left;
-        width: 100%;
-        margin-left: 25px;
-        margin-right: 25px;
-        margin-bottom: 10px;
-    }
-    .news-title{
-        width: 90%;
-    }
+ .news-title{
+    width: 90%;
+ }

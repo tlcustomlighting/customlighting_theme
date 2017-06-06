@@ -13,7 +13,7 @@ get_header();
 <div class="row text-center">
     <?php $wpb = new WP_QUERY(array('post_type'=>'post', 'post_status'=>'publish', 'post_per_page'=>-1)); ?>
     <?php if ($wpb->have_posts()) :  ?>
-        <ul class="news_grid list-unstyled">
+        <ul class="news_grid">
             <?php while ($wpb->have_posts()) : $wpb->the_post(); ?>
                 <li><a href="<?php the_permalink(); ?>"><span><?php the_post_thumbnail(); ?></span><span><?php the_title(); ?></span></a></li>
             <?php endwhile; ?>

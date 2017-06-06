@@ -49,21 +49,21 @@
                 const slider_size = 18; ?>
             <?php if ($wpb->have_posts()) :  $count = 0; ?>
         <div class="item active">
-            <ul class="news-grid">
+            <ul class="news-grid list-unstyled">
                 <?php while($wpb->have_posts() && $count < 6) : $wpb->the_post(); ?>
                     <li><a href="<?php echo get_page_link(16); ?>"><span><?php the_post_thumbnail(); $count++;?></span></a></li>
                 <?php endwhile; ?>
             </ul>
         </div>
         <div class="item">
-            <ul class="news-grid">
+            <ul class="news-grid" list-unstyled>
                 <?php while($wpb->have_posts() && $count < 12) : $wpb->the_post(); ?>
                     <li><a href="<?php echo get_page_link(16); ?>"><span><?php the_post_thumbnail(); $count++;?></span></a></li>
                 <?php endwhile; ?>
             </ul>
         </div>
         <div class="item">
-            <ul class="news-grid">
+            <ul class="news-grid list-unstyled">
                 <?php while($wpb->have_posts() && $count < 18) : $wpb->the_post(); ?>
                     <li><a href="<?php echo get_page_link(16); ?>"><span><?php the_post_thumbnail(); $count++;?></span></a></li>
                 <?php endwhile; ?>

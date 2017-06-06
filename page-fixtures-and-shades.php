@@ -21,12 +21,7 @@
     </div>
     <!-- News grid -->
     <h3 class="text-center">Newest Posts</h3>
-    <div id="newsCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators list-unstyled">
-        <li data-target="#newCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#newsCarousel" data-slide-to="1"></li>
-        <li data-target="#newsCarousel" data-slide-to="2"></li>
-    </ol>
+<div id="newsCarousel" class="carousel slide" data-ride="carousel">
     <!-- Wrapper for slides. Each item points to a page and each image should be the featured image for that page.-->
     <div class="carousel-inner" role="listbox">
         <?php
@@ -36,23 +31,23 @@
                 const slider_size = 18; ?>
             <?php if ($wpb->have_posts()) :  $count = 0; ?>
         <div class="item active">
-            <ul class="news-grid">
-                <?php while($wpb->have_posts() && $count < 4) : $wpb->the_post(); ?>
-                    <li><span><?php the_post_thumbnail(); $count++;?></span></li>
+            <ul class="news-grid list-unstyled">
+                <?php while($wpb->have_posts() && $count < 6) : $wpb->the_post(); ?>
+                    <li><a href="<?php echo get_page_link(16); ?>"><span><?php the_post_thumbnail(); $count++;?></span></a></li>
                 <?php endwhile; ?>
             </ul>
         </div>
         <div class="item">
-            <ul class="news-grid">
-                <?php while($wpb->have_posts() && $count < 8) : $wpb->the_post(); ?>
-                    <li><span><?php the_post_thumbnail(); $count++;?></span></li>
-                <?php endwhile; ?>
-            </ul>
-        </div>
-        <div class="item">
-            <ul class="news-grid">
+            <ul class="news-grid" list-unstyled>
                 <?php while($wpb->have_posts() && $count < 12) : $wpb->the_post(); ?>
-                    <li><span><?php the_post_thumbnail(); $count++; ?></span></li>
+                    <li><a href="<?php echo get_page_link(16); ?>"><span><?php the_post_thumbnail(); $count++;?></span></a></li>
+                <?php endwhile; ?>
+            </ul>
+        </div>
+        <div class="item">
+            <ul class="news-grid list-unstyled">
+                <?php while($wpb->have_posts() && $count < 18) : $wpb->the_post(); ?>
+                    <li><a href="<?php echo get_page_link(16); ?>"><span><?php the_post_thumbnail(); $count++;?></span></a></li>
                 <?php endwhile; ?>
             </ul>
         </div>
