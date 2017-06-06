@@ -1,0 +1,109 @@
+/*
+Theme name: tLCustomLighting
+Author: Marquis Massie
+Author Email: massiemarquis@gmail.com
+Company URL: http://www.tlcustomlighting.com/
+Version: 1.0
+Description: A custom wordpress theme tLCustomLightiing. The theme is specifically intended for the tL*CustomLighting website. Thisstylesheet controls the header.
+*/
+.login{
+    display: inline;
+    font-family: sans-serif;
+    margin: 0;
+    width: 50%;
+    padding: 0;
+    margin: auto;
+}
+.login p{
+    margin: auto;
+    padding: 0;
+    width: 50%;
+}
+.login .col-sm-2{
+    padding: 0;
+}
+.login a{
+    text-decoration: none;
+}
+.login ul{
+    position: inherit;
+    overflow: auto;
+    width: 50%;
+}
+.login li{
+    list-style: none;
+    display: inline;
+}
+.banner{
+    margin-top: 0;
+    padding-top: 0;
+    text-decoration: none;
+    background-color: lightgray;
+}
+.banner a{
+    color: black;
+}
+.banner a:hover{
+    color: black;
+}
+.banner span a{
+    text-decoration: none;
+}
+.banner .text-nowrap{
+    margin-top, margin-bottom: auto;
+    padding-top, padding-bottom: 0;
+}
+.banner .site-nav, .banner a h1{
+    margin: 0;
+    padding: 0;
+}
+.banner .navbar{
+    border: 0 solid lightgray;
+}
+.banner .site-nav, .banner .navbar{
+    background-color: lightgray;
+}
+.banner .site-nav li{
+    list-style: none;
+}
+.banner .site-nav ul a:hover{
+    text-decoration: none;
+}
+.banner .col-md-4 h2 span a{
+    display: block;
+}
+.banner .col-md-4 h2 .owner strong{
+    color: gray;
+    font-size: 12pt;
+}
+.banner .col-md-4 h2 .owner strong:after{
+    content: "Women Owned Business";   
+}
+.header{
+    margin-bottom: 20px;
+}
+.title{
+    display: inline;
+    height: 46px;
+}
+.title h3{
+    margin: 0;
+}
+.col-sm-3.social li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.col-sm-3.social li i{
+    color: lightgrey;
+}
+.col-sm-6.title, .col-sm-3.text-right{
+    display: none;
+}
+.col-sm-3.text-right i{
+    display: none;
+}
+.second-nav{
+    text-align: center;
+    left: 17px;
+}

@@ -1,0 +1,179 @@
+@media only screen and (min-width: 786px){
+    /* General */
+    img{
+        max-width: 400px;
+    }
+    .news-grid li{
+        display: block;
+        float: left;
+        width: 25%;
+        vertical-align: top;
+    }
+    .news-grid li img{
+        height: 400px;
+    }
+    .container-fluid.index{
+        height: 45%;
+        padding-left: 0;
+        padding-right: 0;
+        height: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .col-sm-6.title{
+        display: block;
+    }
+    .col-sm-3.social{
+        float: right;
+    }
+     /* Single-page */
+    .row.single-desc p{
+        height: 20px;
+    }
+    .row.error-404{
+        padding-bottom: 28%;
+    }
+    /* Header */
+    .col-sm-3.text-right, .col-sm-3.text-right i{
+        display: inline;
+    }
+    .col-sm-3.text-right a:after{
+        content: "Client Login";
+        color: black;
+    }
+    .carousel-title{
+        width: 25%;
+        text-align: center;
+        position: absolute;
+        bottom: 150px;
+        color: white;
+        border: 3px solid white;
+        margin-left: 35%;
+    }
+    .login .col-sm-6, .login .col-sm-3, .login .col-sm-1, .login .col-sm-2{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .login .col-sm-2 ul li{
+        float: left;
+        width: 33.3%;
+        padding: 10px;
+        padding-right: 2px;
+        border-right: 1px solid lightgray;
+    }
+    .banner .site-nav{
+        font-size: 12pt;
+    }
+    .banner .site-nav ul{
+        margin: 0;
+        padding: 0;
+    }
+    .banner .main-nav{
+        padding-top: 20px;
+    }
+    .banner .nav.navbar-nav a{
+        margin: 0;
+        padding: 0;
+    }
+    .banner .site-nav ul:before, .banner .site-nav ul:after{
+        content: "";
+        display: table;
+    }
+    .banner .site-nav:after{
+        clear: both;
+    }
+    .banner .site-nav ul li{
+        list-style: none;
+        float: left;
+    }
+    .banner .site-nav ul li a:link, .banner .site-nav ul li a:visited{
+        display: block;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .banner .col-md-3 h2 span{
+        display: block;
+    }
+    .banner .col-md-3 h2 span a{
+        display: none;
+    }
+    .banner .col-md-3 .phone:after{
+        content: "Phone:+1.310.622.7313 ";
+    }
+    .banner .col-md-3 .email:after{
+    	content: " Email:info@tlcustomlighting.com";
+    }
+    .banner .col-md-3 h2 .owner strong:after{
+        content: "Women Owned Business";   
+    }
+    .banner .col-md-3 h2{
+        font-size: 1.5rem;
+    }
+    .banner .col-md-3.text-center{
+        padding-right: 0;
+    }
+    .banner .col-md-9.text-center{
+        padding-left: 0;
+        padding-right: 0;
+        left: 225px;
+    }
+    #customBar ul{
+        background-color: lightgray;
+    }
+    /* Homepage */
+    .content-col{
+        vertical-align: top;
+    }
+    .col-md-9.content-col, ..col-md-9.content-col .col-md-12{
+        height: 400px;
+    }
+    .item img{
+        width: 500px;
+        margin-left: 30%;
+    }
+    .carousel-title:hover{
+        border-color: goldenrod;
+    }
+    /* Footer */
+    footer{
+        border:1px solid black;
+        background-color:black;
+        color:white;
+        padding: 20px;
+        width: 100vw;
+        height: 110px;
+    }
+    footer table td{
+        padding: 10px 50px 10px 50px;
+    }
+    footer table td:nth-child(2){
+        border-left: 1px solid lightgray;
+        border-right: 1px solid lightgray;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    /* Page Template */
+    .col-md-12.filter{
+        vertical-align: top;
+        padding-right: 0px;
+    }
+    .col-md-12.filter form ul li{
+        float:left
+    }
+    .col-md-12.filter form .nav.navbar-default, .col-md-12.filter form .filter-button{
+        float: left;
+    }
+    .gallery-grid li{
+        float: left;
+        width: 25%;
+    }
+    /* Fixtures and Shades */
+    /* Attachments */
+    /* News Page */
+    .news{
+       border: 2px solid darkgoldenrod; 
+    }
+    /* Overview */
+    /* Client Page */
+    /* Login Page */
+}

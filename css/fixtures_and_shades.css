@@ -1,0 +1,33 @@
+.fixture-table{
+    width: 100%;
+    clear:both;
+    overflow: visible;
+}
+.fixture-table td{
+    background-repeat:no-repeat;
+    background-size: 100% 400px;
+}
+.fixture-table td h3{
+    width: 100%;
+    height: 350px;
+    color: white;
+}
+.fixture-table td a{
+    text-decoration: none;
+}
+.fixture-table{
+        clear:both;
+        overflow:visible;
+    }
+    .fixture-table td{
+        background-repeat:no-repeat;
+        background-size: 100%; 400px;
+    }
+    .fixture-table td h3{
+        width: 400px;
+        height: 350px;
+        color: white;
+    }
+    .fixture-table, tr, td{
+        display: block;
+    }

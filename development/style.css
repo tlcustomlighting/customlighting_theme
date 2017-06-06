@@ -1,0 +1,97 @@
+/*
+Theme name: tLCustomLighting
+Author: Marquis Massie
+Author Email: massiemarquis@gmail.com
+Company URL: http://www.tlcustomlighting.com/
+Version: 1.0
+Description: A custom wordpress theme tLCustomLightiing. The theme is specifically intended for the tL*CustomLighting website.
+*/
+/******* General ********/
+ul{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+/******* Header ********/
+
+/******* Side bar blog posts *********/
+
+/****** Homepage ******/
+
+/***** Page.php *****/
+
+/***** Login.php *****/
+.login-body{
+    height: 60vh;
+}
+.login-info{
+   padding: 10px;
+}
+/***** Gallery Display *****/
+
+/***** News ******/
+
+/* Overview */
+
+/* Client List */
+
+/* 404 Error Code Page */
+.error-404 a{
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+.error-404 a:hover{
+    color: goldenrod;
+}
+/* Login Page */
+form .form-group .pass{
+    margin-left: 30px;
+}
+.login-title{
+    font-size: 30pt;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.btn-login{
+    width: 100px;
+    height: 50px;
+    background-color: darkgoldenrod;
+    color: white;
+    margin-top: 20px;
+}
+@media only screen and (min-width: 786px){
+    /*Desktop*/
+}
+@media only screen and (max-width: 785px){
+    /* General */
+    .container-fluid.index{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* Header */
+    
+    /* Home Page */
+    
+    /* Page Template */
+    
+    /* Fixtures and Shades */
+    
+    /* News Slider(proto) */
+    .pseudo-news li{
+        display: block;
+        float: left;
+        width: 25%;
+        vertical-align: top;
+    }
+    .pseudo-news li img{
+        width: 100%;
+        height: 75px;
+    }
+    /* News Grid */
+    
+    /* Footer */
+    
+    /* Attachment Style */
+}

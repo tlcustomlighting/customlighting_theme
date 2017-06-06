@@ -1,0 +1,35 @@
+/*
+Theme name: tLCustomLighting
+Author: Marquis Massie
+Author Email: massiemarquis@gmail.com
+Company URL: http://www.tlcustomlighting.com/
+Version: 1.0
+Description: A custom wordpress theme tLCustomLightiing. The theme is specifically intended for the tL*CustomLighting website. Thisstylesheet controls the footer.
+*/
+footer.text-center{
+        border:1px solid black;
+        background-color:black;
+        color:white;
+        padding: 20px;
+        width: 100vw;
+    }
+    footer .row{
+        height: 2px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    footer h6{
+        padding: 25px 0 75px 0;
+        height: 100px;
+        margin-bottom: 0;
+    }
+    footer table td{
+        display: none;
+        height: 2px;
+    }
+    #descriptors .col-md-4 p{
+        display: none;
+    }
+    .container.contact{
+        padding-left: 20px;
+    }

@@ -1,0 +1,35 @@
+/*
+Theme name: tLCustomLighting
+Author: Marquis Massie
+Author Email: massiemarquis@gmail.com
+Company URL: http://www.tlcustomlighting.com/
+Version: 1.0
+Description: A custom wordpress theme tLCustomLightiing. The theme is specifically intended for the tL*CustomLighting website. Thisstylesheet controls the homepage.
+*/
+.row.parent-div{
+    clear: both;
+    display: block;
+    height: 380px;
+}
+.content-col{
+    width: 100%;
+}
+.content-col, .content-col .col-md-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+#myCarousel{
+    clip-path:inset(0 0 25px 0);
+}
+#myCarousel ol li{
+    display: none;
+}
+.carousel-title{
+    width: 250px;
+    text-align: center;
+    position: absolute;
+    bottom: 150px;
+    color: white;
+    border: 3px solid white;
+    margin-left: 20%;
+}

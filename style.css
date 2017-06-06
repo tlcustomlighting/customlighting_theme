@@ -1,0 +1,77 @@
+/*
+Theme name: tLCustomLighting
+Author: Marquis Massie
+Author Email: massiemarquis@gmail.com
+Company URL: http://www.tlcustomlighting.com/
+Version: 1.0
+Description: A custom wordpress theme tLCustomLightiing. The theme is specifically intended for the tL*CustomLighting website.
+*/
+ul{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+img{
+    max-width: 500px;
+    max-height: 500px;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.index{
+    padding-right: 0;
+    padding-left: 0;
+    height: 100%;
+}
+/*  Set height of row to match bottom of index page carousel */
+#newsCarousel{
+    border-top: 1px solid darkgoldenrod;
+    border-bottom: 1px solid darkgoldenrod;
+}
+.news-grid li img{
+    height: 50px;
+    width: 90%;
+    padding:0;
+    margin:0;
+    vertical-align: top;
+}
+.news-grid li{
+    display: block;
+    float: left;
+    width: 25%;
+    padding-top: 0;
+}
+
+/***** Login.php *****/
+.login-body{
+    height: 60vh;
+}
+.login-info{
+   padding: 10px;
+}
+/* 404 Error Code Page */
+.error-404 a{
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+.error-404 a:hover{
+    color: goldenrod;
+}
+/* Login Page */
+form .form-group .pass{
+    margin-left: 30px;
+}
+.login-title{
+    font-size: 30pt;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.btn-login{
+    width: 100px;
+    height: 50px;
+    background-color: darkgoldenrod;
+    color: white;
+    margin-top: 20px;
+}
